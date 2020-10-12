@@ -1,0 +1,16 @@
+repositories{
+    mavenCentral()
+}
+
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java.srcDirs = ["src/main/java"]
+    }
+}
+
+
+dependencies {
+    implementation("com.google.guava:guava:29.0-jre")
+}
